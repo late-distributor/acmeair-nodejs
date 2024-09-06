@@ -5,7 +5,7 @@ Assume you have [installed Docker and stared Docker daemon](https://docs.docker.
 
 ### Run MongoDB container
 
-	docker run --name mongo_001 -d -P mongo
+	docker run --name mongo_001 -d -P mongo:4.1-xenial
 	
 	docker ps
 		to get mapped port of 27017, e.g. 49177 
